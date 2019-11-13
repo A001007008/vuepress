@@ -1,0 +1,19 @@
+{
+  "name": "vuePress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cnpm": "^6.1.0",
+    "vuepress": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+	"deploy": "deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
